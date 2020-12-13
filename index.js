@@ -31,7 +31,7 @@ class Square extends Polygon {
 
   get isValid() {
     if (this.count !== 4) return;
-    const [side1, side2, side3, side4] = sides
+    const [side1, side2, side3, side4] = count
     return ((side1 === side2) && (side1 === side3) && (side1 === side4))
   }
 
